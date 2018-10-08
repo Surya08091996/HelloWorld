@@ -1,0 +1,10 @@
+description = "my stock-price checker";
+host = "aptrestwebprttj4jqbl.eu3.hana.ondemand.com";
+port = 80;
+pathPrefix = "/APT_Rest_Web/rest/region";
+authType = none;
+useSSL = false;
+timeout = 0;
+proxyType = http;
+proxyHost = "proxy";
+proxyPort = 8080;

@@ -1,0 +1,8 @@
+
+var body = request.body.asString();
+var input = JSON.parse(body);
+
+$.response.setBody(input);
+$.response.contentType = 'application/json';
+$.response.status = $.net.http.OK;
+
